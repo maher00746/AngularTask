@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "28dad424-3bb0-46c4-a63d-521c43224ae5"
+    "analytics": "996459d6-3ce7-4a1f-979b-60c21e4cf6db"
   },
   "version": 1,
   "newProjectRoot": "projects",
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/mahertask",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
