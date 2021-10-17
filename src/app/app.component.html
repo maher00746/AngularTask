@@ -1,0 +1,5 @@
+<router-outlet></router-outlet>
+<p-toast position="top-center"></p-toast>
+<ngx-spinner bdColor="rgb(65, 104, 138)" size="large" color="#6aea2f" type="ball-scale-multiple" [fullScreen]="true">
+    <p style="color: white">{{ loadingTxt$ | async }}</p>
+</ngx-spinner>

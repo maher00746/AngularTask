@@ -1,0 +1,20 @@
+:host .search1 {
+  width: 100% !important;
+}
+:host .p-float-label > label {
+  left: 0.5rem;
+  color: #fcfdfd;
+  transition-duration: 0.2s;
+  font-size: 1.1rem;
+}
+.p-inputtext {
+  background-color: transparent;
+}
+.p-button.p-button-icon-only {
+  width: 5rem;
+  color: white;
+}
+.p-inputtext {
+  margin: 0;
+  color: #5bf44f;
+}

@@ -1,0 +1,14 @@
+<div class=" component  flex align-items-center justify-content-center w-full">
+    <div class=" w-full">
+        <div class="flex ">
+            <div class="flex-grow-1 flex align-items-center justify-content-center ">
+                <span class="p-float-label  w-5">
+                    <input type="text" pInputText id="login" name="login" class="w-full" [(ngModel)]="query">
+                    <label for="login">Login</label>
+                </span>
+                <button #searchBtn id="searchBtn" (click)="search()" pButton type="button"
+                    class="p-button-outlined  p-button-primary" icon="pi pi-search"> </button>
+            </div>
+        </div>
+    </div>
+</div>
